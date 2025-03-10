@@ -1,0 +1,141 @@
+/*3/9/25 Aditya Nahar*/
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+  header {
+    position: relative;
+
+    padding: 1rem;
+  }
+  #logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  header h1 {
+    margin: 0 0 0 60px; 
+  }
+
+  nav {
+    width: 100%;
+    background-color: #008000;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  nav a:hover {
+    background-color: #000;
+    color: #9ea3a9;
+  }
+  
+
+  #content-wrapper {
+    display: flex; 
+  }
+  
+
+  aside {
+    background-color: #ccc;
+    margin: 1rem;        
+    padding: 0.5rem;
+    position: relative; 
+    top: 20px;          
+    width: 10%;
+    box-sizing: border-box;
+  }
+
+  aside > h2 {
+    margin-top: 0;
+  }
+
+  aside section {
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+    border: 1px solid #008000;
+    border-radius: 0.5rem;
+  }
+
+  aside section h3 {
+    background-color: #008000;
+    color: #fff;
+    margin-top: 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0; 
+  }
+
+  aside section a {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  
+
+  main {
+    flex: 1;    
+    box-sizing: border-box;
+  }
+  
+
+  article img {
+    border: 5px double #333;
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
+
+  main > section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  main > section > div {
+    background-color: #e7f1e7; 
+    border: 1px solid #008000;
+    border-radius: 10px;
+    width: 32%; 
+    text-align: center;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  main > section > div:last-child {
+    margin-right: 0;
+  }
+  main > section > div h2 {
+    background-color: #008000;
+    color: #fff;
+    margin-top: 0;
+    padding: 0.5rem;
+    border-radius: 10px 10px 0 0;
+  }
+  main > section > div img {
+    border: 3px double #333;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  a {
+    color: #008000;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #004400;
+  }
+  
